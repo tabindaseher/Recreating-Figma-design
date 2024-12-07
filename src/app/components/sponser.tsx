@@ -1,3 +1,4 @@
+/*eslint-disable @typescript-eslint/no-unused-vars*/
 import Image from "next/image"
 import apple from "@/app/assets/Landing page V1/desktop/Apple.png"
 import microsoft from "@/app/assets/Landing page V1/desktop/microsoft 1.png"
@@ -10,7 +11,7 @@ import google from "@/app/assets/Landing page V1/desktop/Group 246.png"
         <div className="w-[1920px] h-[538px] top-[4564px] py-[140px] px-[220px] gap-[100px] ">
             <h1 className="w-[1482px] h-[87px] font-inter font-bold text-7xl leading-[87.14px] tracking-[-2%] text-center text-[#212529] " > Our sponsors</h1>
 
-            <div className="w-[1482px] h-[71px] flex justify-between items-center mt-20">
+            <div className="w-[1482px] h-[71px] flex justify-between items-center sm:flex-col md: flex-row mt-20">
                 <div className="w-[55.47px] h-[68px] gap-1">
                     <Image src={apple} alt=""/>
                 </div>

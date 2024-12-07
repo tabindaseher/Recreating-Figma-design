@@ -1,9 +1,10 @@
+  /*eslint-disable @typescript-eslint/no-unused-vars*/
   import Image from "next/image"
   import logo from "@/app/assets/Landing page V1/desktop/Logo.png"
 
   const Navbar =()=>{
     return(
-        <div className="w-[1920px] h-[92px] py-4 px-[220px] justify-between bg-[#043873]  left-[1px] flex items-center">
+        <div className="w-[1920px] sm:h-full md:h-[92px] py-4 px-[220px] justify-between bg-[#043873]  left-[1px] flex items-center">
             <div className="w-[191px] h-[34px]">
                 
              <Image src={logo} alt="logo"/>

@@ -1,3 +1,4 @@
+/*eslint-disable @typescript-eslint/no-unused-vars*/
 import Image from "next/image"
 import icon2 from "@/app/assets/Landing page V1/desktop/Icon.png"
 

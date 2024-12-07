@@ -1,10 +1,11 @@
+ /*eslint-disable @typescript-eslint/no-unused-vars*/
  import Image from "next/image"
  import work from "@/app/assets/Landing page V1/Landing page V1/desktop/Work Together Image.png"
  import icon2 from "@/app/assets/Landing page V1/desktop/Icon.png"
  const Management = () => {
     return(
         <div className="w-[1920px] h-[1588px]  py-[140px] px-[220px] top-[921px] left-[1px] ">
-            <div className=" content1 w-[1480px] h-[547px] gap-[60px] flex"> 
+            <div className=" content1 w-[1480px] sm:h-full md:h-[547px] gap-[60px] flex sm:flex-col md:flex-row"> 
                 <div className="w-[672px] h-[411px] gap-[60px] ">
                     <div className="w-[672px] h-[288px] gap-6 ">
                         <h1 className="w-[672px] h-[174px] text-7xl font-bold font- inter leading-[87.14px] tracking-[-2%] text-[#212529] mt-10 ">Project Management</h1>
